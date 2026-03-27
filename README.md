@@ -1,27 +1,27 @@
 **Project Title:**
-UK Housing Price Analysis & Prediction
+This project analyzes UK housing price trends using Python for data cleaning and exploratory analysis, and Tableau for building an interactive dashboard.
 
-**Problem Statement**
-Analyze UK housing trends and build a model to predict house prices.
+**Project Overview**
+This project analyzes UK housing price trends using Python for data cleaning and exploratory analysis, and Tableau for building an interactive dashboard. The goal is to understand regional price disparities and market trends over time.
 
+**Workflow**
+1. Data Cleaning using Pandas
+2. Exploratory Data Analysis (EDA)
+3. Feature transformation (Date → Year/Month)
+4. Data Visualization using Tableau
+5. Dashboard design with filters and insights
 
-**Dataset:** UK House Price Index dataset
-
-**Key Insights:**
-
-London has highest prices (~£500k)
-Wales lowest (~£160k)
-~3x price difference across regions
-Prices show upward trend over time
+**Key Insights**
+- London has the highest average housing price (~£500k)
+- Wales and Midlands are the most affordable regions (~£160k–£190k)
+- UK housing prices show consistent growth over time
+- Significant price gap (~3x) between regions
  
 **Models Used:**
 Linear Regression
 Random Forest
 
-
-**Results:**
-RMSE ≈ £86k
-Limited accuracy due to lack of detailed features
-
-**Tech Stack:**
-Python, Pandas, Scikit-learn, Matplotlib
+**Tech Stack**
+- Python (Pandas, Matplotlib)
+- Tableau
+- Data Analysis & Visualization
