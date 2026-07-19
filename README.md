@@ -1,29 +1,38 @@
-**Project Title:**
-This project analyzes UK housing price trends using Python for data cleaning and exploratory analysis, and Tableau for building an interactive dashboard.
+# UK Housing Price Analysis and Interactive Dashboard
 
-**Project Overview**
-This project analyzes UK housing price trends using Python for data cleaning and exploratory analysis, and Tableau for building an interactive dashboard. The goal is to understand regional price disparities and market trends over time.
+# Overview
 
-**Workflow**
-1. Data Cleaned using Pandas
+A predictive analytics project analysing UK housing price trends, exploring regional price trends and comparing regression models before presenting results in an interactive Tableau dashboard. The goal is to understand regional price disparities and market trends over time.
+
+**Tech Stack:**
+
+**Language:** Python (Pandas, Matplotlib, Scikit-learn)
+
+**Models:** Linear Regression, Random Forest
+
+**Visualization:** Tableau
+
+## Workflow
+1. Data preprocessing
 2. Exploratory Data Analysis (EDA)
-3. Feature transformation (Date → Year/Month)
-4. Data Visualization using Tableau
-5. Dashboard design with filters and insights
+3. Feature engineering
+4. Model training and comparison
+5. Dashboard development
 
-**Models Used:**
-Linear Regression and Random Forest
+## Performance Metrics
+- Cleaned and preprocessed UK housing market data
+- Performs exploratory data analysis (EDA) to surface regional trends
+- Engineers new features to improve model performance
+- Trains and compares Linear Regression vs. Random Forest models
+- Builds an interactive Tableau dashboard to present findings
 
-**Tech Stack**
-- Python (Pandas, Matplotlib), Tableau, Data Analysis & Visualization
 
- **Key Insights**
+ ## Key Results
+ Random Forest outperformed Linear Regression in prediction accuracy. The dashboard highlighted clear regional variation in housing price trends across the UK.
 - London has the highest average housing price (~£500k)
-- Wales and Midlands are the most affordable regions (~£160k–£190k)
 - UK housing prices show consistent growth over time
 - Significant price gap (~3x) between regions
 
- **Future Improvements**
-
-- Can add a predictive model for price forecasting
-- Including geospatial mapping for better insights
+## Summary
+Built predictive models and an interactive Tableau dashboard for UK housing market analysis, combining regression modelling with regional trend
+visualization.
