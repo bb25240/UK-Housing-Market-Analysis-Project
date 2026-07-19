@@ -28,7 +28,9 @@ A predictive analytics project analysing UK housing price trends, exploring regi
 
 
  ## Key Results
- Random Forest outperformed Linear Regression in prediction accuracy. The dashboard highlighted clear regional variation in housing price trends across the UK.
+Random Forest outperformed Linear Regression, though RMSE for both models remained high, highlighting the impact of limited available features on prediction accuracy. 
+
+The dashboard highlighted clear regional variation in housing price trends across the UK.
 - London has the highest average housing price (~£500k)
 - UK housing prices show consistent growth over time
 - Significant price gap (~3x) between regions
